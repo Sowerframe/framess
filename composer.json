@@ -1,0 +1,47 @@
+{
+    "name": "sower/frame",
+    "description": "Born from the heart.",
+    "keywords": [
+        "sower"
+    ],
+    "homepage": "http://sower.org.cn/",
+    "license": "sower",
+    "authors": [
+        {
+            "name": "@七侠@章小杰@龙哥@白飞"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+	    "ext-swoole": ">=4.3",		
+        "psr/cache": "~1.0",
+        "psr/container": "~1.0",
+        "psr/log": "~1.0",
+        "psr/simple-cache": "^1.0",
+        "opis/closure": "^3.1",
+	    "sower/debug": "~1.0.0",
+        "sower/driver": "~1.0.0",
+		"sower/exception": "~1.0.0" ,
+		"sower/handle": "~1.0.0",
+		"sower/routes": "~1.0.0",
+		"sower/savant": "~1.0.0",
+		"sower/service": "~1.0.0",
+		"sower/sowers": "~1.0.0"
+    },
+    "require-dev": {
+        "mikey179/vfsstream": "^1.6",
+        "mockery/mockery": "^1.2",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "files": [],
+        "psr-4": {
+            "sower\\": "src/sower/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    }  
+}
